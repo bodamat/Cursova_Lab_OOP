@@ -1,8 +1,8 @@
 ﻿#include <iostream>
 
-#include "Group.h"
-#include "Person.h"
-#include "Student.h"
+#include "Classes/Group.h"
+#include "Classes/Person.h"
+#include "Classes/Student.h"
 
 using namespace std;
 

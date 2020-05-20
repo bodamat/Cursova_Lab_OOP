@@ -7,6 +7,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Group.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Person.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -31,6 +34,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1bzTQ7fJgmguc0uFpoM13n2hfME" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -112,6 +116,7 @@
       <workItem from="1589977508179" duration="1309000" />
       <workItem from="1589978854323" duration="3659000" />
       <workItem from="1590005579310" duration="1889000" />
+      <workItem from="1590007521021" duration="656000" />
     </task>
     <servers />
   </component>
