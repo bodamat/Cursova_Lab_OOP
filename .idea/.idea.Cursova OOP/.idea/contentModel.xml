@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Bohdan\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Bohdan\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_Cursova OOP.-2070114643.00" t="ExcludeRecursive" />
+    <e p="F:\visual studio projects\Клюйник\Cursova OOP" t="IncludeRecursive">
+      <e p="Cursova OOP.cpp" t="Include" />
+      <e p="Cursova OOP.sln" t="IncludeFlat" />
+      <e p="Cursova OOP.vcxproj" t="IncludeRecursive" />
+      <e p="Group.cpp" t="Include" />
+      <e p="Group.h" t="Include" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Person.cpp" t="Include" />
+      <e p="Person.h" t="Include" />
+      <e p="Student.cpp" t="Include" />
+      <e p="Student.h" t="Include" />
+      <e p="x64\Debug" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
