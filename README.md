@@ -1,2 +1,4 @@
 # Cursova-OOP
- Cursova OOP C++ 33-PZ Technical college Lviv
+ Cursova OOP C++ </br>
+ Technical college from Lviv nationality university "Lviv Polytechnic" </br>
+ 33-PZ
