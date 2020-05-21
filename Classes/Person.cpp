@@ -18,7 +18,7 @@ Person::Person(const Person &other)
 
 Person::~Person()
 {
-	std::cout << "Person Destructor " << this << endl;
+	// std::cout << "Person Destructor " << this << endl;
 }
 
 // Sets

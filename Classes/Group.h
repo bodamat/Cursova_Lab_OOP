@@ -6,15 +6,15 @@
 class Group
 {
 private:
-	int studentCount = 0;
-	Student *studentArray;
+	string name = "";
+	int studentsCount = 0;
+	Student *studentsArray;
 	int maxBadMark = 3;
+	int badStudentsCount = 0;
 
-
-	
 public:
 	Group();
-	Group(int student_count, Student* student_array);
+	Group(string name, int student_count, Student* student_array);
 
 	~Group();
 
@@ -24,11 +24,13 @@ public:
 	void set_student_array(Student* student_array, int student_count);
 
 	// Gets
-	
+
+	string get_name() const;
 	int get_student_count() const;
 	Student* get_student_array() const;
+	int get_bad_students_count() const;
 
-	Student* studentListWithBadMarks(const Student &students);
+	Student* getStudentListWithBadMarks();
 
-	friend std::ostream& operator<<(std::ostream& os, const Group& obj);
+	friend std::ostream& operator<<(std::ostream& os, const Group& group);
 };

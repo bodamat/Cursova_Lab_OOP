@@ -75,7 +75,8 @@ void Student::set_lessons_count(int lessons_count)
 
 void Student::set_lessons_mark(const STMarkFromLesson *lessons_mark, int size)
 {
-    delete[] lessonsMark;
+    // delete[] lessonsMark;
+    
     lessonsMark = new STMarkFromLesson[size];
     
     for (int i = 0; i < size; i++)
