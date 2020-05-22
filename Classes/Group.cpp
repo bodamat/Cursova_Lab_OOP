@@ -1,7 +1,7 @@
 ﻿#include "Group.h"
 // #include <vector>
 
-// --------------------- Constructors and Destructor -------------------------
+// ------------------------------------ Constructors and Destructor --------------------------------------
 
 Group::Group() // constructor without parameters
 {
@@ -9,7 +9,8 @@ Group::Group() // constructor without parameters
 	studentsArray = {};
 }
 
-Group::Group(string name, int student_count, Student* student_array): name(name), studentsCount(student_count) // constructor with parameters
+Group::Group(string name, int student_count, Student* student_array): name(name), studentsCount(student_count)
+// constructor with parameters
 {
 	set_student_array(student_array, student_count);
 }
@@ -19,7 +20,7 @@ Group::~Group() // destructor
 	// delete[] studentArray;
 }
 
-// ------------------------------------ All setters -------------------------------------------
+// ------------------------------------ All setters ---------------------------------------------------
 
 void Group::set_student_count(int student_count)
 {
@@ -59,7 +60,7 @@ int Group::get_bad_students_count() const
 	return badStudentsCount;
 }
 
-// Get all students, who have bad marks
+// ----------------------------- Get all students, who have bad marks ------------------------------------------
 Student* Group::getStudentListWithBadMarks()
 {
 	// vector<Student> studentsList;
@@ -89,7 +90,7 @@ Student* Group::getStudentListWithBadMarks()
 	return {};
 }
 
-// Display group
+// ------------------------------------- Display group ----------------------------------------------
 std::ostream& operator<<(std::ostream& os, const Group& group)
 {
 	return os

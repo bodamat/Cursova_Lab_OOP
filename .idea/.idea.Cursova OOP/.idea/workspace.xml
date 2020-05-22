@@ -56,8 +56,6 @@
         <option value="$PROJECT_DIR$/Person.h" />
         <option value="$PROJECT_DIR$/Group.cpp" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/Classes/Iterator.cpp" />
-        <option value="$PROJECT_DIR$/Classes/Iterator.h" />
         <option value="$PROJECT_DIR$/Cursova OOP.cpp" />
         <option value="$PROJECT_DIR$/Classes/Person.h" />
         <option value="$PROJECT_DIR$/Classes/Student.h" />
@@ -65,6 +63,8 @@
         <option value="$PROJECT_DIR$/Classes/Student.cpp" />
         <option value="$PROJECT_DIR$/Classes/Group.h" />
         <option value="$PROJECT_DIR$/Classes/Group.cpp" />
+        <option value="$PROJECT_DIR$/Classes/Iterator.h" />
+        <option value="$PROJECT_DIR$/Classes/Iterator.cpp" />
       </list>
     </option>
   </component>
@@ -161,7 +161,7 @@
       <workItem from="1590009394534" duration="76000" />
       <workItem from="1590009486178" duration="8384000" />
       <workItem from="1590056364016" duration="1459000" />
-      <workItem from="1590177033751" duration="10433000" />
+      <workItem from="1590177033751" duration="10749000" />
     </task>
     <task id="LOCAL-00001" summary="Organize project">
       <created>1590008580678</created>
@@ -219,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590188605515</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add comments for class Iterator">
+      <created>1590188915168</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1590188915168</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
@@ -258,7 +265,8 @@
     <MESSAGE value="add comments for class Person" />
     <MESSAGE value="cleanup code and add comments for class Student" />
     <MESSAGE value="add comments for class Group" />
-    <option name="LAST_COMMIT_MESSAGE" value="add comments for class Group" />
+    <MESSAGE value="add comments for class Iterator" />
+    <option name="LAST_COMMIT_MESSAGE" value="add comments for class Iterator" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="458" width="535" height="352" key="#C++" timestamp="1589671146936">
@@ -375,10 +383,10 @@
     </state>
     <state x="499" y="200" key="SettingsEditor/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590187014728" />
     <state x="477" y="185" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590009470044" />
-    <state x="494" y="197" width="1058" height="635" key="Vcs.Push.Dialog.v2" timestamp="1590188611840">
+    <state x="494" y="197" width="1058" height="635" key="Vcs.Push.Dialog.v2" timestamp="1590188925387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="494" y="197" width="1058" height="635" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590188611840" />
+    <state x="494" y="197" width="1058" height="635" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590188925387" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590009861675" />
     <state x="739" y="364" key="cloudConfig.PluginsDialog" timestamp="1590009269520">
       <screen x="0" y="0" width="1920" height="1040" />

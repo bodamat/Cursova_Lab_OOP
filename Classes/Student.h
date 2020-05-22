@@ -21,7 +21,8 @@ private:
 public:
 	Student(); // constructor without parameters
 	Student(string surname, string name, string fatherName, STBirthday birthday, char sex, string vnz, string faculty,
-	        int course, string group, string id, int lessons_count, STMarkFromLesson* lessons_mark); // constructor with parameters
+	        int course, string group, string id, int lessons_count, STMarkFromLesson* lessons_mark);
+	// constructor with parameters
 	Student(const Person& other, string vnz, string faculty, int course, string group, string id, int lessons_count,
 	        STMarkFromLesson* lessons_mark); // constructor with parameters and another person
 

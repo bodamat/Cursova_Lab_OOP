@@ -15,7 +15,8 @@ Student::Student() // constructor without parameters
 
 Student::Student(string surname, string name, string fatherName, STBirthday birthday, char sex, string vnz,
                  string faculty, int course, string group, string id, int lessons_count,
-                 STMarkFromLesson* lessons_mark) : Person(surname, name, fatherName, birthday, sex) // constructor with parameters
+                 STMarkFromLesson* lessons_mark) : Person(surname, name, fatherName, birthday, sex)
+// constructor with parameters
 {
 	set_vnz(vnz);
 	set_faculty(faculty);
@@ -28,7 +29,8 @@ Student::Student(string surname, string name, string fatherName, STBirthday birt
 }
 
 Student::Student(const Person& other, string vnz, string faculty, int course, string group, string id,
-                 int lessons_count, STMarkFromLesson* lessons_mark): Person(other) // constructor with parameters and another person
+                 int lessons_count, STMarkFromLesson* lessons_mark): Person(other)
+// constructor with parameters and another person
 {
 	set_vnz(vnz);
 	set_faculty(faculty);

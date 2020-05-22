@@ -7,7 +7,7 @@ private:
 	Group group;
 public:
 	int index; // array index
-	
+
 	Iterator(Group group); // constructor
 	void next(); // next index
 	void first(); // set to first index
