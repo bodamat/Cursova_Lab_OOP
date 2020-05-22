@@ -3,7 +3,9 @@
 
 using namespace std;
 
-struct STBirthday { // Structure of person birthday
+struct STBirthday
+{
+	// Structure of person birthday
 	int day;
 	int month;
 	int year;
@@ -11,7 +13,6 @@ struct STBirthday { // Structure of person birthday
 
 class Person
 {
-
 private:
 	string surname;
 	string name;
@@ -20,20 +21,21 @@ private:
 
 protected: // editable in inherited classes
 	STBirthday birthday;
-	
+
 public:
 
 	Person(); // constructor without parameters
-	Person(string surname, string name, string father_name, STBirthday birthday, char sex) // constructor with parameters
+	Person(string surname, string name, string father_name, STBirthday birthday, char sex)
+	// constructor with parameters
 		: surname(surname),
 		  name(name),
 		  fatherName(father_name),
-		  birthday(birthday),
-		  sex(sex)
+		  sex(sex),
+		  birthday(birthday)
 	{
 	}
 
-	Person(const Person &other); //copy constructor
+	Person(const Person& other); //copy constructor
 	virtual ~Person(); // destructor
 
 	// All setters
@@ -43,7 +45,7 @@ public:
 	void set_father_name(string father_name);
 	void set_birthday(STBirthday birthday);
 	void set_sex(char sex);
-	
+
 	// All getters
 
 	string get_surname() const;
@@ -57,12 +59,11 @@ public:
 
 	// All overload operators
 
-	void operator()(string surname, string name, string father_name); // operator for change surname, name and father name
+	void operator()(string surname, string name, string father_name);
+	// operator for change surname, name and father name
 	void operator()(STBirthday birthday); // operator for change birthday
 	void operator()(char sex); // operator for change sex
-	void operator = (const Person &person); // operator for copy data from another person
-	friend ostream& operator << (ostream &out, const Person& person); // operator for display person
-	friend istream& operator >> (istream &in, Person &person); // operator for enter data to person
-	
+	void operator =(const Person& person); // operator for copy data from another person
+	friend ostream& operator <<(ostream& out, const Person& person); // operator for display person
+	friend istream& operator >>(istream& in, Person& person); // operator for enter data to person
 };
-

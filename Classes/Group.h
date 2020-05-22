@@ -12,14 +12,14 @@ private:
 	int badStudentsCount = 0;
 
 public:
-	Student *studentsArray;
+	Student* studentsArray;
 	Group();
 	Group(string name, int student_count, Student* student_array);
 
 	~Group();
 
 	// Sets
-	
+
 	void set_student_count(int student_count);
 	void set_student_array(Student* student_array, int student_count);
 

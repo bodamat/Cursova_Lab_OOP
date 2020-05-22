@@ -7,7 +7,7 @@ Group::Group()
 	studentsArray = {};
 }
 
-Group::Group(string name, int student_count, Student* student_array): studentsCount(student_count), name(name)
+Group::Group(string name, int student_count, Student* student_array): name(name), studentsCount(student_count)
 {
 	set_student_array(student_array, student_count);
 }
@@ -60,9 +60,9 @@ int Group::get_bad_students_count() const
 Student* Group::getStudentListWithBadMarks()
 {
 	// vector<Student> studentsList;
-	Student *studentsList = new Student[studentsCount];
+	Student* studentsList = new Student[studentsCount];
 	badStudentsCount = 0;
-	
+
 	for (int i = 0; i < studentsCount; i++)
 	{
 		for (int j = 0; j < studentsArray[i].get_lessons_count(); j++)
@@ -74,7 +74,6 @@ Student* Group::getStudentListWithBadMarks()
 				badStudentsCount++;
 				break;
 			}
-			
 		}
 	}
 
@@ -83,7 +82,7 @@ Student* Group::getStudentListWithBadMarks()
 		// return &studentsList[0];
 		return studentsList;
 	}
-	
+
 	return {};
 }
 
@@ -91,6 +90,6 @@ std::ostream& operator<<(std::ostream& os, const Group& group)
 {
 	return os
 		<< "Group name: " << group.name << endl
-        << "Student count in group: " << group.studentsCount << endl
-        << "Max bad mark: " << group.maxBadMark << endl;
+		<< "Student count in group: " << group.studentsCount << endl
+		<< "Max bad mark: " << group.maxBadMark << endl;
 }

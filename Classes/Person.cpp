@@ -1,6 +1,6 @@
 #include "Person.h"
 
-// --------------------- Constructors and Destructor -------------------------
+// --------------------------------- Constructors and Destructor -----------------------------------
 
 Person::Person() // constructor without parameters
 {
@@ -11,7 +11,7 @@ Person::Person() // constructor without parameters
 	sex = 'm';
 }
 
-Person::Person(const Person &other) //copy constructor
+Person::Person(const Person& other) //copy constructor
 {
 	this->surname = other.surname;
 	this->name = other.name;
@@ -25,7 +25,7 @@ Person::~Person() // destructor
 	// std::cout << "Person Destructor " << this << endl;
 }
 
-// ------------------- All setters -----------------------------
+// ------------------------------------- All setters -----------------------------------------
 
 void Person::set_surname(string surname)
 {
@@ -52,7 +52,7 @@ void Person::set_sex(char sex)
 	this->sex = sex;
 }
 
-// ------------------- All getters -----------------------------
+// -------------------------------------- All getters -------------------------------------------
 
 string Person::get_surname() const
 {
@@ -96,7 +96,8 @@ char Person::get_sex() const
 
 // ------------------------ All overload operators -----------------------
 
-void Person::operator()(string surname, string name, string father_name) // operator for change surname, name and father name
+void Person::operator()(string surname, string name, string father_name)
+// operator for change surname, name and father name
 {
 	this->surname = surname;
 	this->name = name;
@@ -122,38 +123,38 @@ void Person::operator=(const Person& person) // operator for copy data from anot
 	this->sex = person.sex;
 }
 
-ostream& operator << (ostream& out, const Person& person) // operator for display person
+ostream& operator <<(ostream& out, const Person& person) // operator for display person
 {
 	out << "Surname: " << person.surname << endl;
 	out << "Name: " << person.name << endl;
 	out << "Father name: " << person.fatherName << endl;
-	out << "Birthday: " << person.get_birthday_day() << " " << person.get_birthday_month() << " " << person.get_birthday_year() << endl;
+	out << "Birthday: " << person.get_birthday_day() << " " << person.get_birthday_month() << " " << person.
+		get_birthday_year() << endl;
 	out << "Sex: " << person.sex << endl;
-	
+
 	return out;
 }
 
-istream& operator >> (istream &in, Person &person) // operator for enter data to person
+istream& operator >>(istream& in, Person& person) // operator for enter data to person
 {
-	cout << "Enter Surname: "; 
+	cout << "Enter Surname: ";
 	in >> person.surname;
-	
-	cout << "Enter Name: "; 
+
+	cout << "Enter Name: ";
 	in >> person.name;
-	
-	cout << "Enter Father name: "; 
+
+	cout << "Enter Father name: ";
 	in >> person.fatherName;
-	
-	cout << "Enter Birthday day: "; 
+
+	cout << "Enter Birthday day: ";
 	in >> person.birthday.day;
-	cout << "Enter Birthday month: "; 
+	cout << "Enter Birthday month: ";
 	in >> person.birthday.month;
-	cout << "Enter Birthday year: "; 
+	cout << "Enter Birthday year: ";
 	in >> person.birthday.year;
-	
-	cout << "Enter Sex: "; 
+
+	cout << "Enter Sex: ";
 	in >> person.sex;
-	
+
 	return in;
 }
-
