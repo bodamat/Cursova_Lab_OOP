@@ -12,25 +12,28 @@ private:
 	int badStudentsCount = 0;
 
 public:
-	Student* studentsArray;
-	Group();
-	Group(string name, int student_count, Student* student_array);
+	Student* studentsArray; // array with objects Student
+	
+	Group(); // constructor without parameters
+	Group(string name, int student_count, Student* student_array); // constructor with parameters
 
-	~Group();
+	~Group(); // destructor
 
-	// Sets
+	// All setters
 
 	void set_student_count(int student_count);
 	void set_student_array(Student* student_array, int student_count);
 
-	// Gets
+	// All getters
 
 	string get_name() const;
 	int get_student_count() const;
 	Student* get_student_array() const;
 	int get_bad_students_count() const;
 
-	Student* getStudentListWithBadMarks();
+	// Get all students, who have bad marks
+	Student* getStudentListWithBadMarks(); 
 
+	// display group
 	friend std::ostream& operator<<(std::ostream& os, const Group& group);
 };
