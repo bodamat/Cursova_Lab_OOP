@@ -44,7 +44,7 @@ public:
 	string get_faculty() const;
 	int get_course() const;
 	string get_group() const;
-	virtual string get_id() const;
+	string get_id() const;
 	int get_lessons_count() const;
 	STMarkFromLesson* get_lessons_mark() const;
 

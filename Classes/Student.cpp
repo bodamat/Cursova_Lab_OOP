@@ -4,9 +4,13 @@
 
 Student::Student()
 {
-    VNZ = faculty = group = ID = "";
-    course = lessonsCount = 0;
-    lessonsMark = new STMarkFromLesson[lessonsCount];
+    VNZ = "VNZ";
+    faculty = "Faculty";
+    group = "Group";
+    ID = "ID";
+    course = 0;
+    lessonsCount = 0;
+    lessonsMark = {};
 }
 
 Student::Student(string surname, string name, string fatherName, STBirthday birthday, char sex, string vnz,

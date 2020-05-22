@@ -2,7 +2,9 @@
 
 Person::Person()
 {
-	surname = name = fatherName = "";
+	surname = "Surname";
+	name = " Name";
+	fatherName = "Father name";
 	birthday = {};
 	sex = 'm';
 }

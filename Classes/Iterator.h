@@ -3,9 +3,10 @@
 
 class Iterator
 {
+private:
 	Group group;
-	int index;
 public:
+	int index;
 	Iterator(Group group);
 	void next();
 	void first();

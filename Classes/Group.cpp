@@ -3,11 +3,8 @@
 
 Group::Group()
 {
-	name = "";
-	studentsCount = 0;
+	name = "Group name";
 	studentsArray = {};
-	badStudentsCount = 0;
-
 }
 
 Group::Group(string name, int student_count, Student* student_array): studentsCount(student_count), name(name)
