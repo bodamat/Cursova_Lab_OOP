@@ -1,15 +1,14 @@
-#include <string>
+#pragma once
 #include <iostream>
 
 using namespace std;
 
-struct STBirthday {
+struct STBirthday { // Structure of person birthday
 	int day;
 	int month;
 	int year;
 };
 
-#pragma once
 class Person
 {
 
@@ -19,13 +18,13 @@ private:
 	string fatherName;
 	char sex;
 
-protected:
+protected: // editable in inherited classes
 	STBirthday birthday;
 	
 public:
 
-	Person();
-	Person(string surname, string name, string father_name, STBirthday birthday, char sex)
+	Person(); // constructor without parameters
+	Person(string surname, string name, string father_name, STBirthday birthday, char sex) // constructor with parameters
 		: surname(surname),
 		  name(name),
 		  fatherName(father_name),
@@ -34,10 +33,10 @@ public:
 	{
 	}
 
-	Person(const Person &other);
-	virtual ~Person();
+	Person(const Person &other); //copy constructor
+	virtual ~Person(); // destructor
 
-	// Sets
+	// All setters
 
 	void set_surname(string surname);
 	void set_name(string name);
@@ -45,25 +44,25 @@ public:
 	void set_birthday(STBirthday birthday);
 	void set_sex(char sex);
 	
-	// Gets
+	// All getters
 
 	string get_surname() const;
 	string get_name() const;
 	string get_father_name() const;
-	virtual STBirthday get_birthday() const; // Virtual і пізнє зв'язування
+	virtual STBirthday get_birthday() const; // Virtual function and late binding
 	int get_birthday_day() const;
 	int get_birthday_month() const;
 	int get_birthday_year() const;
 	char get_sex() const;
 
-	// Operators
+	// All overload operators
 
-	void operator()(string surname, string name, string father_name);
-	void operator()(STBirthday birthday);
-	void operator()(char sex);
-	void operator = (const Person &person);
-	friend ostream& operator << (ostream &out, const Person& person);
-	friend istream& operator >> (istream &in, Person &person);
+	void operator()(string surname, string name, string father_name); // operator for change surname, name and father name
+	void operator()(STBirthday birthday); // operator for change birthday
+	void operator()(char sex); // operator for change sex
+	void operator = (const Person &person); // operator for copy data from another person
+	friend ostream& operator << (ostream &out, const Person& person); // operator for display person
+	friend istream& operator >> (istream &in, Person &person); // operator for enter data to person
 	
 };
 

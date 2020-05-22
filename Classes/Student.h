@@ -39,7 +39,7 @@ public:
 	
 	// Gets
 
-	STBirthday get_birthday() const override; // Override функції і пізнє зв'язування
+	STBirthday get_birthday() const override; // Override function and late binding
 	string get_vnz() const;
 	string get_faculty() const;
 	int get_course() const;
