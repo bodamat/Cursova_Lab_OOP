@@ -19,30 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de80fbf5-9f78-4802-9686-63c0fed334fa" name="Default Changelist" comment="add one bug and add function getStudentListWithBadMarks">
-      <change afterPath="$PROJECT_DIR$/.vs/Cursova OOP/v16/.suo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/Cursova OOP/v16/Browse.VC.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/Cursova OOP/v16/ipch/AutoPCH/21dc9fdc993f53ed/PERSON.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/Cursova OOP/v16/ipch/AutoPCH/4bc96ebda53c0f1f/GROUP.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/Cursova OOP/v16/ipch/AutoPCH/76434c7629a1fdab/CURSOVA OOP.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/Cursova OOP/v16/ipch/AutoPCH/bdf84898b18e4531/STUDENT.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/Cursova OOP/v16/ipch/AutoPCH/d58d1129c758f37a/ITERATOR.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x64/Debug/Cursova OOP.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Cursova OOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cursova OOP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/Group.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Group.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/Group.h" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Group.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/Person.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Person.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/Person.h" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Person.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/Student.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Student.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/Student.h" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Student.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cursova OOP.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Cursova OOP.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/Cursova OOP.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Cursova OOP.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/Cursova OOP.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Cursova OOP.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/Cursova OOP.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Cursova OOP.tlog/CL.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/Cursova OOP.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Cursova OOP.tlog/link.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/vc142.idb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/vc142.idb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/vc142.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/vc142.pdb" afterDir="false" />
-    </list>
+    <list default="true" id="de80fbf5-9f78-4802-9686-63c0fed334fa" name="Default Changelist" comment="add one bug and add function getStudentListWithBadMarks" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,15 +56,15 @@
         <option value="$PROJECT_DIR$/Person.h" />
         <option value="$PROJECT_DIR$/Group.cpp" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/Classes/Group.h" />
         <option value="$PROJECT_DIR$/Classes/Iterator.cpp" />
         <option value="$PROJECT_DIR$/Classes/Iterator.h" />
-        <option value="$PROJECT_DIR$/Classes/Group.cpp" />
         <option value="$PROJECT_DIR$/Cursova OOP.cpp" />
         <option value="$PROJECT_DIR$/Classes/Person.h" />
         <option value="$PROJECT_DIR$/Classes/Student.h" />
         <option value="$PROJECT_DIR$/Classes/Person.cpp" />
         <option value="$PROJECT_DIR$/Classes/Student.cpp" />
+        <option value="$PROJECT_DIR$/Classes/Group.h" />
+        <option value="$PROJECT_DIR$/Classes/Group.cpp" />
       </list>
     </option>
   </component>
@@ -184,7 +161,7 @@
       <workItem from="1590009394534" duration="76000" />
       <workItem from="1590009486178" duration="8384000" />
       <workItem from="1590056364016" duration="1459000" />
-      <workItem from="1590177033751" duration="9915000" />
+      <workItem from="1590177033751" duration="10433000" />
     </task>
     <task id="LOCAL-00001" summary="Organize project">
       <created>1590008580678</created>
@@ -228,7 +205,21 @@
       <option name="project" value="LOCAL" />
       <updated>1590185804144</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="cleanup code and add comments for class Student">
+      <created>1590188256480</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1590188256480</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add comments for class Group">
+      <created>1590188605515</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1590188605515</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
@@ -265,7 +256,9 @@
     <MESSAGE value="create class Iterator" />
     <MESSAGE value="fix bugs, improve destructors without parameters and add comment for main file" />
     <MESSAGE value="add comments for class Person" />
-    <option name="LAST_COMMIT_MESSAGE" value="add comments for class Person" />
+    <MESSAGE value="cleanup code and add comments for class Student" />
+    <MESSAGE value="add comments for class Group" />
+    <option name="LAST_COMMIT_MESSAGE" value="add comments for class Group" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="458" width="535" height="352" key="#C++" timestamp="1589671146936">
@@ -382,10 +375,10 @@
     </state>
     <state x="499" y="200" key="SettingsEditor/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590187014728" />
     <state x="477" y="185" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590009470044" />
-    <state x="494" y="197" width="1058" height="635" key="Vcs.Push.Dialog.v2" timestamp="1590185816569">
+    <state x="494" y="197" width="1058" height="635" key="Vcs.Push.Dialog.v2" timestamp="1590188611840">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="494" y="197" width="1058" height="635" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590185816569" />
+    <state x="494" y="197" width="1058" height="635" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590188611840" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590009861675" />
     <state x="739" y="364" key="cloudConfig.PluginsDialog" timestamp="1590009269520">
       <screen x="0" y="0" width="1920" height="1040" />
