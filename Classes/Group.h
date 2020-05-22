@@ -8,11 +8,11 @@ class Group
 private:
 	string name = "";
 	int studentsCount = 0;
-	Student *studentsArray;
 	int maxBadMark = 3;
 	int badStudentsCount = 0;
 
 public:
+	Student *studentsArray;
 	Group();
 	Group(string name, int student_count, Student* student_array);
 

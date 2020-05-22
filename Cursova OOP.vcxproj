@@ -212,6 +212,7 @@
       <LibCompiled></LibCompiled>
       <ImpLibCompiled></ImpLibCompiled>
     </ClCompile>
+    <ClCompile Include="Classes\Iterator.cpp" />
     <ClCompile Include="Classes\Person.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -346,6 +347,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Classes\Group.h" />
+    <ClInclude Include="Classes\Iterator.h" />
     <ClInclude Include="Classes\Person.h" />
     <ClInclude Include="Classes\Student.h" />
   </ItemGroup>

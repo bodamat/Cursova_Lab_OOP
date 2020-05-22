@@ -19,13 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de80fbf5-9f78-4802-9686-63c0fed334fa" name="Default Changelist" comment="">
+    <list default="true" id="de80fbf5-9f78-4802-9686-63c0fed334fa" name="Default Changelist" comment="add one bug and add function getStudentListWithBadMarks">
+      <change afterPath="$PROJECT_DIR$/Classes/Iterator.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/Iterator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Cursova OOP/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cursova OOP/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Cursova OOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cursova OOP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/Group.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Group.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Classes/Group.h" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Group.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/Person.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Person.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/Student.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Student.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cursova OOP.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Cursova OOP.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cursova OOP.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Cursova OOP.vcxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/x64/Debug/Cursova OOP.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Cursova OOP.ilk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/x64/Debug/Cursova OOP.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Cursova OOP.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/x64/Debug/Cursova OOP.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Cursova OOP.tlog/CL.command.1.tlog" afterDir="false" />
@@ -33,6 +34,7 @@
       <change beforePath="$PROJECT_DIR$/x64/Debug/Cursova OOP.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Cursova OOP.tlog/CL.write.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/x64/Debug/Cursova OOP.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Cursova OOP.tlog/link.command.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/x64/Debug/Cursova OOP.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Cursova OOP.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/Cursova OOP.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Cursova OOP.tlog/link.write.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/x64/Debug/vc142.idb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/vc142.idb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/x64/Debug/vc142.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/vc142.pdb" afterDir="false" />
     </list>
@@ -51,74 +53,15 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Classes/Group.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Classes/Person.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Cursova OOP.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Classes/Student.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Classes/Iterator.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Classes/Student.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Cursova OOP.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Classes/Iterator.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Classes/Person.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Classes/Person.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Cursova OOP.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Classes/Group.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -134,8 +77,10 @@
         <option value="$PROJECT_DIR$/Classes/Person.cpp" />
         <option value="$PROJECT_DIR$/Classes/Student.h" />
         <option value="$PROJECT_DIR$/Classes/Student.cpp" />
-        <option value="$PROJECT_DIR$/Classes/Group.h" />
         <option value="$PROJECT_DIR$/Classes/Group.cpp" />
+        <option value="$PROJECT_DIR$/Classes/Group.h" />
+        <option value="$PROJECT_DIR$/Classes/Iterator.h" />
+        <option value="$PROJECT_DIR$/Classes/Iterator.cpp" />
         <option value="$PROJECT_DIR$/Cursova OOP.cpp" />
       </list>
     </option>
@@ -231,7 +176,9 @@
       <workItem from="1590007521021" duration="1183000" />
       <workItem from="1590009234171" duration="77000" />
       <workItem from="1590009394534" duration="76000" />
-      <workItem from="1590009486178" duration="8175000" />
+      <workItem from="1590009486178" duration="8384000" />
+      <workItem from="1590056364016" duration="1459000" />
+      <workItem from="1590177033751" duration="1729000" />
     </task>
     <task id="LOCAL-00001" summary="Organize project">
       <created>1590008580678</created>
@@ -247,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590009744311</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add one bug and add function getStudentListWithBadMarks">
+      <created>1590021762204</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590021762204</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
@@ -280,7 +234,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Organize project" />
     <MESSAGE value="update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
+    <MESSAGE value="add one bug and add function getStudentListWithBadMarks" />
+    <option name="LAST_COMMIT_MESSAGE" value="add one bug and add function getStudentListWithBadMarks" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="458" width="535" height="352" key="#C++" timestamp="1589671146936">
@@ -291,107 +246,108 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="398" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1589670280401" />
-    <state width="654" height="443" key="DebuggerActiveHint" timestamp="1590021097292">
+    <state width="654" height="443" key="DebuggerActiveHint" timestamp="1590178955474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="654" height="443" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590021097292" />
+    <state width="654" height="443" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590178955474" />
     <state x="41" y="95" width="1736" height="856" key="DiffContextDialog" timestamp="1589926210782">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="41" y="95" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1589926210782" />
-    <state width="1877" height="232" key="GridCell.Tab.0.bottom" timestamp="1590021258621">
+    <state width="1877" height="232" key="GridCell.Tab.0.bottom" timestamp="1590179044201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590021258621" />
+    <state width="1877" height="232" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590179044201" />
     <state width="1877" height="209" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589755292113" />
-    <state width="1877" height="232" key="GridCell.Tab.0.center" timestamp="1590021258621">
+    <state width="1877" height="232" key="GridCell.Tab.0.center" timestamp="1590179044200">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590021258621" />
+    <state width="1877" height="232" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590179044200" />
     <state width="1877" height="209" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589755292113" />
-    <state width="1877" height="232" key="GridCell.Tab.0.left" timestamp="1590021258620">
+    <state width="1877" height="232" key="GridCell.Tab.0.left" timestamp="1590179044200">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590021258620" />
+    <state width="1877" height="232" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590179044200" />
     <state width="1877" height="209" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589755292113" />
-    <state width="1877" height="232" key="GridCell.Tab.0.right" timestamp="1590021258621">
+    <state width="1877" height="232" key="GridCell.Tab.0.right" timestamp="1590179044200">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590021258621" />
+    <state width="1877" height="232" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590179044200" />
     <state width="1877" height="209" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589755292113" />
-    <state width="1877" height="209" key="GridCell.Tab.1.bottom" timestamp="1590021105421">
+    <state width="1877" height="209" key="GridCell.Tab.1.bottom" timestamp="1590178992344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="209" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590021105421" />
+    <state width="1877" height="209" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590178992344" />
     <state width="1877" height="209" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589755292114" />
-    <state width="1877" height="209" key="GridCell.Tab.1.center" timestamp="1590021105421">
+    <state width="1877" height="209" key="GridCell.Tab.1.center" timestamp="1590178992344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="209" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590021105421" />
+    <state width="1877" height="209" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590178992344" />
     <state width="1877" height="209" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589755292113" />
-    <state width="1877" height="209" key="GridCell.Tab.1.left" timestamp="1590021105421">
+    <state width="1877" height="209" key="GridCell.Tab.1.left" timestamp="1590178992343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="209" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590021105421" />
+    <state width="1877" height="209" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590178992343" />
     <state width="1877" height="209" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589755292113" />
-    <state width="1877" height="209" key="GridCell.Tab.1.right" timestamp="1590021105421">
+    <state width="1877" height="209" key="GridCell.Tab.1.right" timestamp="1590178992344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="209" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590021105421" />
+    <state width="1877" height="209" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590178992344" />
     <state width="1877" height="209" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589755292113" />
-    <state width="1877" height="209" key="GridCell.Tab.2.bottom" timestamp="1590021105421">
+    <state width="1877" height="209" key="GridCell.Tab.2.bottom" timestamp="1590178992344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="209" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590021105421" />
+    <state width="1877" height="209" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590178992344" />
     <state width="1877" height="209" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589755292114" />
-    <state width="1877" height="209" key="GridCell.Tab.2.center" timestamp="1590021105421">
+    <state width="1877" height="209" key="GridCell.Tab.2.center" timestamp="1590178992344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="209" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590021105421" />
+    <state width="1877" height="209" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590178992344" />
     <state width="1877" height="209" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589755292114" />
-    <state width="1877" height="209" key="GridCell.Tab.2.left" timestamp="1590021105421">
+    <state width="1877" height="209" key="GridCell.Tab.2.left" timestamp="1590178992344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="209" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590021105421" />
+    <state width="1877" height="209" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590178992344" />
     <state width="1877" height="209" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589755292114" />
-    <state width="1877" height="209" key="GridCell.Tab.2.right" timestamp="1590021105421">
+    <state width="1877" height="209" key="GridCell.Tab.2.right" timestamp="1590178992344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="209" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590021105421" />
+    <state width="1877" height="209" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590178992344" />
     <state width="1877" height="209" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589755292114" />
-    <state width="1877" height="209" key="GridCell.Tab.3.bottom" timestamp="1590021105421">
+    <state width="1877" height="209" key="GridCell.Tab.3.bottom" timestamp="1590178992344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="209" key="GridCell.Tab.3.bottom/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590021105421" />
+    <state width="1877" height="209" key="GridCell.Tab.3.bottom/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590178992344" />
     <state width="1877" height="209" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589755292114" />
-    <state width="1877" height="209" key="GridCell.Tab.3.center" timestamp="1590021105421">
+    <state width="1877" height="209" key="GridCell.Tab.3.center" timestamp="1590178992344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="209" key="GridCell.Tab.3.center/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590021105421" />
+    <state width="1877" height="209" key="GridCell.Tab.3.center/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590178992344" />
     <state width="1877" height="209" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589755292114" />
-    <state width="1877" height="209" key="GridCell.Tab.3.left" timestamp="1590021105421">
+    <state width="1877" height="209" key="GridCell.Tab.3.left" timestamp="1590178992344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="209" key="GridCell.Tab.3.left/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590021105421" />
+    <state width="1877" height="209" key="GridCell.Tab.3.left/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590178992344" />
     <state width="1877" height="209" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589755292114" />
-    <state width="1877" height="209" key="GridCell.Tab.3.right" timestamp="1590021105421">
+    <state width="1877" height="209" key="GridCell.Tab.3.right" timestamp="1590178992344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="209" key="GridCell.Tab.3.right/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590021105421" />
+    <state width="1877" height="209" key="GridCell.Tab.3.right/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590178992344" />
     <state width="1877" height="209" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589755292114" />
-    <state x="773" y="93" key="RiderGenerateDialog" timestamp="1590021419067">
+    <state x="773" y="93" key="RiderGenerateDialog" timestamp="1590178080445">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="773" y="93" key="RiderGenerateDialog/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590021419067" />
+    <state x="773" y="93" key="RiderGenerateDialog/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590178080445" />
     <state x="773" y="93" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589751614211" />
     <state x="477" y="185" key="SettingsEditor" timestamp="1590009470044">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="477" y="185" key="SettingsEditor/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1589977613624" />
     <state x="477" y="185" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590009470044" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1590009861675">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1590021771355">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1590021771355" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590009861675" />
     <state x="739" y="364" key="cloudConfig.PluginsDialog" timestamp="1590009269520">
       <screen x="0" y="0" width="1920" height="1040" />

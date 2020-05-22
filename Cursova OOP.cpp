@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 
 #include "Classes/Group.h"
+#include "Classes/Iterator.h"
 #include "Classes/Person.h"
 #include "Classes/Student.h"
 
@@ -9,6 +10,7 @@ using namespace std;
 int main()
 {
     Person person1("Matviiv", "Bohdan", "Romanovych", {14, 9, 2001}, 'm');
+    
     
     STMarkFromLesson *lessonsmarks = new STMarkFromLesson[2];
     lessonsmarks[0].lesson = "mathematics";
@@ -35,6 +37,14 @@ int main()
     for (int i = 0; i < group.get_bad_students_count(); i++)
     {
         cout << badStudents[i] << endl;
+    }
+    
+    Iterator iterator(group);
+    
+    while (!iterator.isDone())
+    {
+        cout << iterator.currentItem() << endl;
+        iterator.next();
     }
     
     return 0;

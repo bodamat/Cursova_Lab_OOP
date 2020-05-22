@@ -7,6 +7,8 @@
       <e p="Classes" t="Include">
         <e p="Group.cpp" t="Include" />
         <e p="Group.h" t="Include" />
+        <e p="Iterator.cpp" t="Include" />
+        <e p="Iterator.h" t="Include" />
         <e p="Person.cpp" t="Include" />
         <e p="Person.h" t="Include" />
         <e p="Student.cpp" t="Include" />
