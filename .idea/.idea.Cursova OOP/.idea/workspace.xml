@@ -21,9 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="de80fbf5-9f78-4802-9686-63c0fed334fa" name="Default Changelist" comment="add one bug and add function getStudentListWithBadMarks">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Cursova OOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cursova OOP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cursova OOP.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Cursova OOP.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/x64/Debug/Cursova OOP.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Cursova OOP.ilk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/x64/Debug/Cursova OOP.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Cursova OOP.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/Cursova OOP.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Cursova OOP.tlog/CL.command.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/x64/Debug/Cursova OOP.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Cursova OOP.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/Cursova OOP.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Cursova OOP.tlog/CL.write.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/x64/Debug/vc142.idb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/vc142.idb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/x64/Debug/vc142.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/vc142.pdb" afterDir="false" />
     </list>
@@ -69,15 +72,15 @@
         <option value="$PROJECT_DIR$/Person.h" />
         <option value="$PROJECT_DIR$/Group.cpp" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/Cursova OOP.cpp" />
-        <option value="$PROJECT_DIR$/Classes/Person.h" />
-        <option value="$PROJECT_DIR$/Classes/Student.h" />
-        <option value="$PROJECT_DIR$/Classes/Person.cpp" />
-        <option value="$PROJECT_DIR$/Classes/Student.cpp" />
         <option value="$PROJECT_DIR$/Classes/Group.h" />
         <option value="$PROJECT_DIR$/Classes/Iterator.h" />
         <option value="$PROJECT_DIR$/Classes/Iterator.cpp" />
         <option value="$PROJECT_DIR$/Classes/Group.cpp" />
+        <option value="$PROJECT_DIR$/Classes/Person.cpp" />
+        <option value="$PROJECT_DIR$/Classes/Person.h" />
+        <option value="$PROJECT_DIR$/Classes/Student.h" />
+        <option value="$PROJECT_DIR$/Classes/Student.cpp" />
+        <option value="$PROJECT_DIR$/Cursova OOP.cpp" />
       </list>
     </option>
   </component>
@@ -176,6 +179,7 @@
       <workItem from="1590056364016" duration="1459000" />
       <workItem from="1590177033751" duration="11608000" />
       <workItem from="1590338252051" duration="3841000" />
+      <workItem from="1590846255339" duration="1506000" />
     </task>
     <task id="LOCAL-00001" summary="Organize project">
       <created>1590008580678</created>
@@ -299,6 +303,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="824" y="383" width="482" height="469" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1590338260154" />
+    <state x="552" y="161" key="#Plugins" timestamp="1590846510652">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="161" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1590846510652" />
     <state x="398" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589670280401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

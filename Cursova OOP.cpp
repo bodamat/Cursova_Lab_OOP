@@ -26,6 +26,7 @@ int main()
 	Person person2(person1); // Initialize person with copy constructor
 	Person person3;
 	Person person4;
+	
 	person2("Procak", "Roman", "Batkovych"); // Change some data in person with overload operator () in class
 	person3 = person2; // move all data from person2 to person3 with overload operator = in class
 	person3({5, 5, 2002});
